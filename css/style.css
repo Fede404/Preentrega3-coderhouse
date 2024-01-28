@@ -10,24 +10,49 @@
     overflow-x: hidden;
   }
   .header .section1 .text-container .header-title {
+    user-select: none;
     margin-top: 1em;
     font-size: 2.5em;
     text-align: center;
   }
   .header .section1 .text-container .header-desc {
+    user-select: none;
     font-size: 1.25em;
     margin: 1.5em 0.5em;
+    text-align: start;
   }
   .header .section1 .btn-container {
     gap: 1em;
   }
   .header .section1 .btn-container a {
+    user-select: none;
     cursor: pointer;
     text-align: center;
     padding: 0.25em 1em;
     font-size: 1em;
   }
   .header .section1 .btn-container a:active {
+    background-color: #1f7247;
+  }
+  .header .section2 .text-container .header-title {
+    user-select: none;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .header .section2 .text-container .header-desc {
+    text-align: start;
+    user-select: none;
+    font-size: 1.25em;
+    margin: 1.5em 0.5em;
+  }
+  .header .section2 .text-container a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5em 5em;
+    font-size: 1em;
+  }
+  .header .section2 .text-container a:active {
     background-color: #1f7247;
   }
   .footer {
@@ -89,6 +114,37 @@
   .header .section1 .btn-container a:active {
     background-color: #1f5247;
   }
+  .header .section2 .img-container {
+    margin: auto;
+    gap: 5em;
+  }
+  .header .section2 .img-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .header .section2 .text-container .header-title {
+    user-select: none;
+    font-size: 3em;
+  }
+  .header .section2 .text-container .header-desc {
+    user-select: none;
+    font-size: 1.5em;
+    margin: 1em 2em;
+  }
+  .header .section2 .text-container a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5em 10em;
+    font-size: 1.5em;
+  }
+  .header .section2 .text-container a:hover {
+    cursor: pointer;
+    background-color: #1f7247;
+  }
+  .header .section2 .text-container a:active {
+    background-color: #1f5247;
+  }
   .footer {
     margin-top: 2em;
     justify-content: space-between;
@@ -132,9 +188,24 @@ nav .collapse .navbar-nav .nav-item a {
 }
 .header .section1 .text-container .header-desc {
   color: #1f5247;
-  text-align: center;
 }
 .header .section1 .btn-container a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #1f5247;
+  border-radius: 10px;
+}
+.header .section2 .img-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.header .section2 .text-container .header-title {
+  color: #1f5247;
+}
+.header .section2 .text-container .header-desc {
+  color: #1f5247;
+}
+.header .section2 .text-container a {
   text-decoration: none;
   color: #ffffff;
   background-color: #1f5247;
@@ -145,6 +216,7 @@ nav .collapse .navbar-nav .nav-item a {
   background-color: #8e6e53;
 }
 .footer .info-container span {
+  user-select: none;
   color: #ffffff;
 }
 

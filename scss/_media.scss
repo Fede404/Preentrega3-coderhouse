@@ -21,21 +21,50 @@
         & .section1 {
             & .text-container {
                 & .header-title {
+                    user-select: none;
                     margin-top: 1em;
                     font-size: 2.5em;
                     text-align: center;
                 }
                 & .header-desc {
+                    user-select: none;
                     font-size: 1.25em;
                     margin: 1.5em 0.5em;
+                    text-align: start;
                 }
             }
             & .btn-container {
                 gap: 1em;
                 & a {
+                    user-select: none;
                     cursor: pointer;
                     text-align: center;
                     padding: 0.25em 1em;
+                    font-size: 1em;
+                    &:active {
+                        background-color: impVar.$color4;
+                    }
+                }
+            }
+        }
+        & .section2 {
+            & .text-container {
+                & .header-title {
+                    user-select: none;
+                    font-size: 2.5em;
+                    text-align: center;
+                }
+                & .header-desc {
+                    text-align: start;
+                    user-select: none;
+                    font-size: 1.25em;
+                    margin: 1.5em 0.5em;
+                }
+                & a {
+                    user-select: none;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.5em 5em;
                     font-size: 1em;
                     &:active {
                         background-color: impVar.$color4;
@@ -110,6 +139,41 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.5em 2em;
+                    font-size: 1.5em;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: impVar.$color4;
+                    }
+                    &:active {
+                        background-color: impVar.$color3;
+                    }
+                }
+            }
+        }
+        & .section2 {
+            & .img-container {
+                margin: auto;
+                gap: 5em;
+                & img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+            & .text-container {
+                & .header-title {
+                    user-select: none;
+                    font-size: 3em;
+                }
+                & .header-desc {
+                    user-select: none;
+                    font-size: 1.5em;
+                    margin: 1em 2em;
+                }
+                & a {
+                    user-select: none;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.5em 10em;
                     font-size: 1.5em;
                     &:hover {
                         cursor: pointer;

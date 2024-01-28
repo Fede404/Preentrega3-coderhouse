@@ -35,10 +35,31 @@ nav {
             }
             & .header-desc {
                 color: impVar.$color3;
-                text-align: center;
             }
         }
         & .btn-container {
+            & a {
+                text-decoration: none;
+                color: impVar.$color1;
+                background-color: impVar.$color3;
+                border-radius: 10px;
+            }
+        }
+    }
+    & .section2 {
+        & .img-container {
+            & img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+        & .text-container {
+            & .header-title {
+                color: impVar.$color3;
+            }
+            & .header-desc {
+                color: impVar.$color3;
+            }
             & a {
                 text-decoration: none;
                 color: impVar.$color1;
@@ -53,6 +74,7 @@ nav {
     background-color: impVar.$color2;
     & .info-container {
         & span {
+            user-select: none;
             color: impVar.$color1;
         }
     }
