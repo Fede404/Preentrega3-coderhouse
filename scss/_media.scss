@@ -1,0 +1,30 @@
+// MEDIA QUERIES
+@use "impvar";
+
+@media (min-width: 768px) {
+    nav {
+        background-color: impvar.$color2;
+        & .collapse {
+            & .navbar-nav {
+                gap: 1em;
+                & .nav-item {
+                    & a {
+                        color: impvar.$color1;
+                        cursor: pointer;
+                        padding: 0.25em 1.5em;
+                        font-size: 1.25em;
+                        border: 2px solid transparent;
+                        border-radius: 10px;
+                        &:hover {
+                            border-color: impvar.$color1;
+                        }
+                        &:active {
+                            background-color: impvar.$color1;
+                            color: impvar.$color2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
