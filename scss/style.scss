@@ -1,6 +1,8 @@
+// LLAMADA DE PARTIALS
 @use "impvar";
 @use "media";
 
+// REGLAS GENERALES
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 	font-family: "Poppins", "sans-serif";
 }
 
+// ESTILOS NAV
 nav {
     background-color: impvar.$color2;
     & .collapse {
