@@ -1,5 +1,5 @@
 // LLAMADA DE PARTIALS
-@use "impvar";
+@use "impVar";
 @use "media";
 
 // REGLAS GENERALES
@@ -12,18 +12,48 @@
 
 // ESTILOS NAV
 nav {
-    background-color: impvar.$color2;
+    background-color: impVar.$color2;
     & .collapse {
         & .navbar-nav {
             gap: 1em;
             & .nav-item {
                 & a {
                     user-select: none;
-                    color: impvar.$color1;
+                    color: impVar.$color1;
                     cursor: pointer;
-                    font-size: 1.25em;
                 }
             }
+        }
+    }
+}
+// ESTILOS HEADER
+.header {
+    & .section1 {
+        & .text-container {
+            & .header-title {
+                color: impVar.$color3;
+            }
+            & .header-desc {
+                color: impVar.$color3;
+                text-align: center;
+            }
+        }
+        & .btn-container {
+            & a {
+                text-decoration: none;
+                color: impVar.$color1;
+                background-color: impVar.$color3;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+// ESTILOS FOOTER
+.footer {
+    background-color: impVar.$color2;
+    & .info-container {
+        & span {
+            color: impVar.$color1;
         }
     }
 }

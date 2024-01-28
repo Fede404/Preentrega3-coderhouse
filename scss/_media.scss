@@ -1,5 +1,5 @@
 // MEDIA QUERIES
-@use "impvar";
+@use "impVar";
 
 @media (min-width: 320px) {
     nav {
@@ -7,8 +7,60 @@
             & .navbar-nav {
                 & .nav-item {
                     & a {
+                        font-size: 2em;
                         padding: 0;
                         border: none;
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        margin-top: 2em;
+        overflow-x: hidden;
+        & .section1 {
+            & .text-container {
+                & .header-title {
+                    margin-top: 1em;
+                    font-size: 2.5em;
+                    text-align: center;
+                }
+                & .header-desc {
+                    font-size: 1.25em;
+                    margin: 1.5em 0.5em;
+                }
+            }
+            & .btn-container {
+                gap: 1em;
+                & a {
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.25em 1em;
+                    font-size: 1em;
+                    &:active {
+                        background-color: impVar.$color4;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        margin-top: 2em;
+        justify-content: center;
+        & .info-container {
+            margin: auto;
+            & span {
+                text-align: center;
+                font-size: 1.25em;
+            }
+        }
+        & .socials-container {
+            margin: auto;
+            & li {
+                & a {
+                    & svg {
+                        width: 40px;
+                        height: 40px;
                     }
                 }
             }
@@ -22,16 +74,71 @@
             & .navbar-nav {
                 & .nav-item {
                     & a {
+                        font-size: 1.25em;
                         padding: 0.25em 2em;
                         border: 2px solid transparent;
                         border-radius: 10px;
                         &:hover {
-                            border-color: impvar.$color1;
+                            border-color: impVar.$color1;
                         }
                         &:active {
-                            background-color: impvar.$color1;
-                            color: impvar.$color2;
+                            background-color: impVar.$color1;
+                            color: impVar.$color2;
                         }
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        & .section1 {
+            & .text-container {
+                & .header-title {
+                    user-select: none;
+                    font-size: 3em;
+                }
+                & .header-desc {
+                    user-select: none;
+                    font-size: 1.5em;
+                    margin: 1em 2em;
+                }
+            }
+            & .btn-container {
+                gap: 3em;
+                & a {
+                    user-select: none;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.5em 2em;
+                    font-size: 1.5em;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: impVar.$color4;
+                    }
+                    &:active {
+                        background-color: impVar.$color3;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        margin-top: 2em;
+        justify-content: space-between;
+        & .info-container {
+            margin-left: 2em;
+            & span {
+                text-align: center;
+                font-size: 1.25em;
+            }
+        }
+        & .socials-container {
+            margin-right: 2em;
+            & li {
+                & a {
+                    & svg {
+                        width: 40px;
+                        height: 40px;
                     }
                 }
             }
