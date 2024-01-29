@@ -29,7 +29,7 @@
     cursor: pointer;
     text-align: center;
     padding: 0.25em 1em;
-    font-size: 1em;
+    font-size: 1.25em;
   }
   .header .section1 .btn-container a:active {
     background-color: #1f7247;
@@ -50,9 +50,29 @@
     cursor: pointer;
     text-align: center;
     padding: 0.5em 5em;
-    font-size: 1em;
+    font-size: 1.25em;
   }
   .header .section2 .text-container a:active {
+    background-color: #1f7247;
+  }
+  .header .section3b .card-container {
+    margin: 1.5em 0.5em 0 0.5em;
+  }
+  .header .section3b .card-container .card {
+    margin-top: 1em;
+  }
+  .header .section3b .btn-container {
+    gap: 1em;
+    margin-top: 1em;
+  }
+  .header .section3b .btn-container a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.25em 2em;
+    font-size: 1.25em;
+  }
+  .header .section3b .btn-container a:active {
     background-color: #1f7247;
   }
   .footer {
@@ -145,6 +165,34 @@
   .header .section2 .text-container a:active {
     background-color: #1f5247;
   }
+  .header .section3 .header-title {
+    user-select: none;
+    font-size: 3em;
+  }
+  .header .section3 .carousel {
+    margin-top: 2em;
+  }
+  .header .section3 .carousel .carousel-inner .carousel-item .img-container .carousel-caption h5 {
+    font-size: 2em;
+  }
+  .header .section3 .btn-container {
+    gap: 3em;
+    margin-top: 2em;
+  }
+  .header .section3 .btn-container a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+  }
+  .header .section3 .btn-container a:hover {
+    cursor: pointer;
+    background-color: #1f7247;
+  }
+  .header .section3 .btn-container a:active {
+    background-color: #1f5247;
+  }
   .footer {
     margin-top: 2em;
     justify-content: space-between;
@@ -207,6 +255,39 @@ nav .collapse .navbar-nav .nav-item a {
 }
 .header .section2 .text-container a {
   text-decoration: none;
+  color: #ffffff;
+  background-color: #1f5247;
+  border-radius: 10px;
+}
+.header .section3 .header-title {
+  text-align: center;
+  user-select: none;
+  color: #1f5247;
+}
+.header .section3 .carousel .carousel-inner .carousel-item .img-container {
+  user-select: none;
+}
+.header .section3 .carousel .carousel-inner .carousel-item .img-container img {
+  border-radius: 25px;
+}
+.header .section3 .carousel .carousel-inner .carousel-item .img-container .carousel-caption h5 {
+  font-size: 2em;
+}
+.header .section3 .btn-container a {
+  text-decoration: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #1f5247;
+  border-radius: 10px;
+}
+.header .section3b .header-title {
+  text-align: center;
+  user-select: none;
+  color: #1f5247;
+}
+.header .section3b .btn-container a {
+  text-decoration: none;
+  user-select: none;
   color: #ffffff;
   background-color: #1f5247;
   border-radius: 10px;

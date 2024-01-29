@@ -68,6 +68,55 @@ nav {
             }
         }
     }
+    & .section3 {
+        & .header-title {
+            text-align: center;
+            user-select: none;
+            color: impVar.$color3;
+        }
+        & .carousel {
+            & .carousel-inner {
+                & .carousel-item {
+                    & .img-container {
+                        user-select: none;
+                        & img {
+                            border-radius: 25px;
+                        }
+                        & .carousel-caption {
+                            & h5 {
+                                font-size: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .btn-container {
+            & a {
+                text-decoration: none;
+                user-select: none;
+                color: impVar.$color1;
+                background-color: impVar.$color3;
+                border-radius: 10px;
+            }
+        }
+    }
+    & .section3b {
+        & .header-title {
+            text-align: center;
+            user-select: none;
+            color: impVar.$color3;
+        }
+        & .btn-container {
+            & a {
+                text-decoration: none;
+                user-select: none;
+                color: impVar.$color1;
+                background-color: impVar.$color3;
+                border-radius: 10px;
+            }
+        }
+    }
 }
 // ESTILOS FOOTER
 .footer {

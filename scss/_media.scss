@@ -40,7 +40,7 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.25em 1em;
-                    font-size: 1em;
+                    font-size: 1.25em;
                     &:active {
                         background-color: impVar.$color4;
                     }
@@ -65,7 +65,29 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.5em 5em;
-                    font-size: 1em;
+                    font-size: 1.25em;
+                    &:active {
+                        background-color: impVar.$color4;
+                    }
+                }
+            }
+        }
+        & .section3b {
+            & .card-container {
+                margin: 1.5em 0.5em 0 0.5em;
+                & .card {
+                    margin-top: 1em;
+                }
+            }
+            & .btn-container {
+                gap: 1em;
+                margin-top: 1em;
+                & a {
+                    user-select: none;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.25em 2em;
+                    font-size: 1.25em;
                     &:active {
                         background-color: impVar.$color4;
                     }
@@ -174,6 +196,44 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.5em 10em;
+                    font-size: 1.5em;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: impVar.$color4;
+                    }
+                    &:active {
+                        background-color: impVar.$color3;
+                    }
+                }
+            }
+        }
+        & .section3 {
+            & .header-title {
+                user-select: none;
+                font-size: 3em;
+            }
+            & .carousel {
+                margin-top: 2em;
+                & .carousel-inner {
+                    & .carousel-item {
+                        & .img-container {
+                            & .carousel-caption {
+                                & h5 {
+                                    font-size: 2em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            & .btn-container {
+                gap: 3em;
+                margin-top: 2em;
+                & a {
+                    user-select: none;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0.5em 2em;
                     font-size: 1.5em;
                     &:hover {
                         cursor: pointer;
