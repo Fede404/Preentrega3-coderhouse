@@ -40,7 +40,7 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.25em 1em;
-                    font-size: 1.25em;
+                    font-size: 1em;
                     &:active {
                         background-color: impVar.$color4;
                     }
@@ -65,7 +65,7 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.5em 5em;
-                    font-size: 1.25em;
+                    font-size: 1em;
                     &:active {
                         background-color: impVar.$color4;
                     }
@@ -87,10 +87,22 @@
                     cursor: pointer;
                     text-align: center;
                     padding: 0.25em 2em;
-                    font-size: 1.25em;
+                    font-size: 1em;
                     &:active {
                         background-color: impVar.$color4;
                     }
+                }
+            }
+        }
+        & .section4 {
+            & a {
+                user-select: none;
+                cursor: pointer;
+                text-align: center;
+                padding: 0.25em 2em;
+                font-size: 1em;
+                &:active {
+                    background-color: impVar.$color4;
                 }
             }
         }
@@ -242,6 +254,25 @@
                     &:active {
                         background-color: impVar.$color3;
                     }
+                }
+            }
+        }
+        & .section4 {
+            & .card-group {
+                width: 75%;
+            }
+            & a {
+                user-select: none;
+                cursor: pointer;
+                text-align: center;
+                padding: 0.5em 2em;
+                font-size: 1.5em;
+                &:hover {
+                    cursor: pointer;
+                    background-color: impVar.$color4;
+                }
+                &:active {
+                    background-color: impVar.$color3;
                 }
             }
         }

@@ -29,7 +29,7 @@
     cursor: pointer;
     text-align: center;
     padding: 0.25em 1em;
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .header .section1 .btn-container a:active {
     background-color: #1f7247;
@@ -50,7 +50,7 @@
     cursor: pointer;
     text-align: center;
     padding: 0.5em 5em;
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .header .section2 .text-container a:active {
     background-color: #1f7247;
@@ -70,9 +70,19 @@
     cursor: pointer;
     text-align: center;
     padding: 0.25em 2em;
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .header .section3b .btn-container a:active {
+    background-color: #1f7247;
+  }
+  .header .section4 a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.25em 2em;
+    font-size: 1em;
+  }
+  .header .section4 a:active {
     background-color: #1f7247;
   }
   .footer {
@@ -193,6 +203,23 @@
   .header .section3 .btn-container a:active {
     background-color: #1f5247;
   }
+  .header .section4 .card-group {
+    width: 75%;
+  }
+  .header .section4 a {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+  }
+  .header .section4 a:hover {
+    cursor: pointer;
+    background-color: #1f7247;
+  }
+  .header .section4 a:active {
+    background-color: #1f5247;
+  }
   .footer {
     margin-top: 2em;
     justify-content: space-between;
@@ -285,7 +312,33 @@ nav .collapse .navbar-nav .nav-item a {
   user-select: none;
   color: #1f5247;
 }
+.header .section3b .card-container .card .card-body {
+  user-select: none;
+  color: #1f5247;
+}
 .header .section3b .btn-container a {
+  text-decoration: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #1f5247;
+  border-radius: 10px;
+}
+.header .section4 {
+  gap: 1em;
+}
+.header .section4 .header-title {
+  text-align: center;
+  user-select: none;
+  color: #1f5247;
+}
+.header .section4 .card-group {
+  gap: 1em;
+}
+.header .section4 .card-group .card .card-body {
+  user-select: none;
+  color: #1f5247;
+}
+.header .section4 a {
   text-decoration: none;
   user-select: none;
   color: #ffffff;
