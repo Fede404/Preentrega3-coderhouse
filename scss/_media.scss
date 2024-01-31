@@ -22,7 +22,7 @@
             & .text-container {
                 & .header-title {
                     user-select: none;
-                    margin-top: 1em;
+                    margin-top: 0.5em;
                     font-size: 2.5em;
                     text-align: center;
                 }
@@ -73,6 +73,11 @@
             }
         }
         & .section3b {
+            & .header-title {
+                user-select: none;
+                font-size: 2.5em;
+                text-align: center;
+            }
             & .card-container {
                 margin: 1.5em 0.5em 0 0.5em;
                 & .card {
@@ -95,11 +100,43 @@
             }
         }
         & .section4 {
+            & .header-title {
+                user-select: none;
+                font-size: 2.5em;
+                text-align: center;
+            }
             & a {
                 user-select: none;
                 cursor: pointer;
                 text-align: center;
                 padding: 0.25em 2em;
+                font-size: 1em;
+                &:active {
+                    background-color: impVar.$color4;
+                }
+            }
+        }
+        .section5 {
+            & .header-title {
+                user-select: none;
+                font-size: 2.5em;
+                text-align: center;
+            }
+            & .form-container {
+                margin: 1.62em 0;
+                & .input-group {
+                    margin-bottom: 1em;
+                    & .msg {
+                        text-align: center;
+                        height: 10em;
+                    }
+                }
+            }
+            & a {
+                user-select: none;
+                cursor: pointer;
+                text-align: center;
+                padding: 0.5em 5em;
                 font-size: 1em;
                 &:active {
                     background-color: impVar.$color4;
@@ -266,6 +303,38 @@
                 cursor: pointer;
                 text-align: center;
                 padding: 0.5em 2em;
+                font-size: 1.5em;
+                &:hover {
+                    cursor: pointer;
+                    background-color: impVar.$color4;
+                }
+                &:active {
+                    background-color: impVar.$color3;
+                }
+            }
+        }
+        .section5 {
+            & .header-title {
+                user-select: none;
+                font-size: 2.5em;
+                text-align: center;
+            }
+            & .form-container {
+                width: 50%;
+                margin: 15em 0 0.45em 0;
+                & .input-group {
+                    margin-bottom: 1em;
+                    & .msg {
+                        text-align: center;
+                        height: 15em;
+                    }
+                }
+            }
+            & a {
+                user-select: none;
+                cursor: pointer;
+                text-align: center;
+                padding: 0.5em 10em;
                 font-size: 1.5em;
                 &:hover {
                     cursor: pointer;

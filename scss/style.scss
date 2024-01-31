@@ -125,7 +125,7 @@ nav {
             }
         }
     }
-    .section4 {
+    & .section4 {
         gap: 1em;
         & .header-title {
             text-align: center;
@@ -140,6 +140,20 @@ nav {
                     color: impVar.$color3;
                 }
             }
+        }
+        & a {
+            text-decoration: none;
+            user-select: none;
+            color: impVar.$color1;
+            background-color: impVar.$color3;
+            border-radius: 10px;
+        }
+    }
+    & .section5 {
+        & .header-title {
+            text-align: center;
+            user-select: none;
+            color: impVar.$color3;
         }
         & a {
             text-decoration: none;
